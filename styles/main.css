@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    background-color: #112d4e;
+    color: #93deff;
+}
+
+.header .densha-logo {
+    float: left;
+    margin-top: 10px;
+}
+
+.header .densha-logo img {
+    float: left;
+}
+
+.header .densha-logo p {
+    font-family: Raleway;
+    font-size: 32px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    display: block;
+}
+
+.header .navigation li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    color: #93deff;
+}
+
+.header-dashboard {
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    background-color: #112d4e;
+    color: #93deff;
+}
+
+.header-dashboard .dashboard {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header-dashboard .dashboard h1 {
+    font-family: Raleway;
+    font-size: 32px;
+    float: left;
+}
+
+.header-dashboard .dashboard p {
+    float: right;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    display: block;
+    color: white;
+    margin-top: 40px;
+}
+
+.header-dashboard .dashboard a {
+    float: right;
+    margin-left: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    display: block;
+    color: white;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.header-dashboard .dashboard a:hover {
+    color: #93deff;
+}
